@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MAM Campus Connect</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1220;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 25px 20px;
+            background: linear-gradient(135deg, #0d47a1, #1565c0);
+            border-radius: 0 0 25px 25px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #dbeafe;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section-title {
+            margin: 10px 0 15px;
+            font-size: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        .card {
+            background: #151f32;
+            border: 1px solid #263550;
+            border-radius: 18px;
+            padding: 20px 12px;
+            text-align: center;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: 0.2s;
+        }
+
+        .card:active {
+            transform: scale(0.96);
+        }
+
+        .icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            font-size: 15px;
+        }
+
+        .welcome {
+            background: #111c30;
+            border: 1px solid #263550;
+            border-radius: 18px;
+            padding: 18px;
+            margin-bottom: 25px;
+        }
+
+        .welcome p {
+            color: #aebbd0;
+            line-height: 1.5;
+            margin-top: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            color: #77849a;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎓 MAM Campus Connect</h1>
+    <p>Your College Companion</p>
+</header>
+
+<div class="container">
+
+    <div class="welcome">
+        <h2>Welcome 👋</h2>
+        <p>
+            A simple digital campus companion for MAM College students.
+        </p>
+    </div>
+
+    <h2 class="section-title">Quick Access</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="icon">📢</div>
+            <h3>Notices</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">📅</div>
+            <h3>Academic Calendar</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Study Materials</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">👨‍🏫</div>
+            <h3>Faculty</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚌</div>
+            <h3>Bus Information</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">📍</div>
+            <h3>Campus</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">📝</div>
+            <h3>Feedback</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🤖</div>
+            <h3>AI Assistant</h3>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    MAM Campus Connect • Student Project
+</footer>
+
+</body>
+</html>
